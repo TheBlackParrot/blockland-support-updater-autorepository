@@ -1,5 +1,7 @@
 *Please note this is still a slight work in progress, but everything important is present.*
 
+Demo is available [here](http://blockland.theblackparrot.us)
+
 This automates modifying/updating/etc. anything relating to Support_Updater. The only thing devs still have to update is `version.json` in their addons... to an extent.
 
 ```
