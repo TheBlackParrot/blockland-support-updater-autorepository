@@ -85,6 +85,9 @@
 				// going to get clever here and generate parts of version.json on each access
 
 				// clever injection of id's if they do not exist already
+				if(!array_key_exists("repositories", $version_data)) {
+					$version_data["repositories"] = [[]];
+				}
 				if(!array_key_exists("id", $version_data["repositories"][0])) {
 					$version_data["repositories"][0]["id"] = $id;
 				}
